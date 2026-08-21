@@ -74,3 +74,37 @@ p, li{
     font-size: 30pt;
     overflow: visible;
 }
+.smeargle-tail-wrap{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-10px) scale(0.8);
+    transition:
+      opacity 0.25s ease,
+      transform 0.25s ease;
+    pointer-events: none;
+}
+#home:hover .smeargle-tail-wrap{
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+.smeargle-tail{
+    transform-origin: 80% 20%;
+}
+.smeargle-tail-stem{
+    stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
+    stroke-width: 16px;
+    fill: none;
+    stroke-linecap: round;
+}
+.smeargle-tail-tip{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+}
+.smeargle-tail-shine{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-shine-color);
+}
+#purchaseBox{
+    grid-area: purchase;
+    margin-left: 30px;
+}
