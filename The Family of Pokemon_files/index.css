@@ -41,3 +41,24 @@ html{
 p, li{
     font-size: 20pt;
 }
+#the-family-of-pokemon-artpiece{
+    grid-area: image;
+    margin-left: 5px;
+}
+.pokemon-art-shopping-website-headers{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+    color: var(--pokemon-art-shopping-website-title-color);
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+}
+#contact{
+    grid-area: contact;
+    text-shadow: 1px 1px var(--pokemon-art-shopping-website-title-shadow-color);
+    font-size: 20pt;
+    color: var(--pokemon-art-shopping-website-title-color);
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
+    border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
